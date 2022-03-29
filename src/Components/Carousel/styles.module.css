@@ -1,0 +1,31 @@
+/* .container {
+    width: 98vw;
+    height: 89vh;
+}
+
+.titleBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10%;
+    left: 25%;
+    height: 200px;
+    width: 1000px;
+}
+
+.title1 {
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.title2 {
+    font-size: 64px;
+    margin-left: 15px;
+    color: #0E2E3B;
+} */
+
+.carouselWrapper {
+    height: 50vh;
+    width: 20vw;
+}
