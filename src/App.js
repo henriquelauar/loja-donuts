@@ -3,14 +3,18 @@ import Header from './Components/Header';
 import Banner from './Components/Banner';
 import Main from './Components/Main'
 import CarouselComponent from './Components/Carousel';
+import Rotas from './routes';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header />
       <Banner />
       <Main />
-      <CarouselComponent />
+      <CarouselComponent /> */}
+      <Rotas>
+
+      </Rotas>
     </div>
   );
 }
