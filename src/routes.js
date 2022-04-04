@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter, Routes as RoutesWrapper, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter, Routes as RoutesWrapper, Route } from 'react-router-dom'
 import { Home } from "./views/Home"
 import { Sobre } from "./views/Sobre"
 import { Franquiado } from "./views/Franquiado"
