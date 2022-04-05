@@ -1,0 +1,6 @@
+.App {
+    background-image: url('/public/assets/home-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 345vh;
+  }
