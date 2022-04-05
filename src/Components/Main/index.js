@@ -10,9 +10,8 @@ const Main = () => {
         </Box>
         <Box className={styles.main}>
           <p>
-            Nossa paixão por Donuts nasceu........ Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Sagittis faucibus ullamcorper
-            venenatis, vel, imperdiet sociis sollicitudin sed.
+          Não inventamos a roda, temos os tradicionais donuts, mas também adaptamos essa deliciosa 
+          rosquinha americana com recheios e coberturas brasileiríssimos para fazerem parte da melhor pausa do seu dia!
           </p>
           <button className={styles.btnSaibaMais}>Saiba mais sobre nós</button>
         </Box>

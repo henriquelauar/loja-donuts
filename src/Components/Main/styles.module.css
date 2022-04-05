@@ -1,6 +1,7 @@
 .container {
     width: 98vw;
     height: 100vh;
+    margin-bottom: 25%;
 }
 
 .mainImage {
