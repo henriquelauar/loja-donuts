@@ -8,6 +8,7 @@
     background-color: #FFFFFF;
     position: fixed;
     z-index: 100;
+    font-size: 18px;
 }
 
 .navbar a {
