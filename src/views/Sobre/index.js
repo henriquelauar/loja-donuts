@@ -1,12 +1,14 @@
 
 import React from "react"
-import "./styled.module.css"
+import styles from "./styles.module.css"
 import Header from "../../Components/Header"
+import MainSobre from "../../Components/MainSobre"
 
 export const Sobre = () => {
     return (
-        <div>
-            <Header/>
+        <div className={styles.app}>
+            <Header />
+            <MainSobre />
         </div>
     )
 } 

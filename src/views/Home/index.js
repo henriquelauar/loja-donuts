@@ -1,8 +1,8 @@
 import React from "react"
 import Header from '../../Components/Header';
-import Banner from '../../Components/Banner';
-import Main from '../../Components/Main'
-import CarouselComponent from '../../Components/Carousel';
+import Banner from '../../Components/BannerHome';
+import Main from '../../Components/MainHome'
+import CarouselComponent from '../../Components/CarouselHome';
 import styles from './styles.module.css'
 
 export const Home = () => {
