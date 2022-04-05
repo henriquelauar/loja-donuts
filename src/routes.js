@@ -2,7 +2,7 @@ import React from "react"
 import { BrowserRouter, Routes as RoutesWrapper, Route } from 'react-router-dom'
 import { Home } from "./views/Home"
 import { Sobre } from "./views/Sobre"
-import { Franquiado } from "./views/Franquiado"
+import { Franqueado } from "./views/Franqueado"
 import { Galeria } from "./views/Galeria"
 
 function Rotas (){
@@ -12,7 +12,7 @@ function Rotas (){
                 <Route path="/" element={<Home />}></Route>
                 <Route path="/sobre" element={<Sobre />}></Route>
                 <Route path="/galeria" element={<Galeria />}/>
-                <Route path="/franquiado" element={<Franquiado/>}></Route>
+                <Route path="/franqueado" element={<Franqueado/>}></Route>
             </RoutesWrapper>
         </BrowserRouter>
     )
