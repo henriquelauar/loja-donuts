@@ -5,34 +5,23 @@ import { Box } from "@mui/material";
 const Banner = () => {
   return (
     <>
-        <Box className={styles.bannerImage}>
-          <img
-            src="/assets/banner-image.png"
-            alt="bannerImage"
-            height="767px"
-            width="682px"
-          />
-        </Box>
-        <Box className={styles.bannerTitle}>
-          <h1 className={styles.bannerTitle1}>Os melhores</h1>
-          <h1 className={styles.bannerTitle2}>Donuts</h1>
-        </Box>
-        <div className={styles.linhaHorizontal}></div>
-        <div className={styles.linhaVertical}></div>
-        <p className={styles.bannerText}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis
-          faucibus ullamcorper venenatis, vel, imperdiet sociis sollicitudin
-          sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis
-          faucibus ullamcorper venenatis, vel, imperdiet sociis sollicitudin
-          sed.
-        </p>
-        <a
-          href="https://api.whatsapp.com/send?phone=5533988051975&"
-        >
-          <button className={styles.btnPedido}>
-            Faça seu pedido <WhatsAppIcon className={styles.icon} />
-          </button>
-        </a>
+      <Box className={styles.bannerImage}>
+        <img src="/assets/banner-image.png" alt="bannerImage" />
+      </Box>
+      <Box className={styles.bannerTitle}>
+        <h1 className={styles.bannerTitle1}>A hora mais gostosa do seu dia <span style={{color: '#0E2E3B'}}>é com a gente </span>
+        </h1>
+      </Box>
+      <p className={styles.bannerText}>
+        Os Donuts mais deliciosos, fresquinhos e LINDOS! <br/>Sua pausa nunca mais
+        será a mesma com a explosão de sabores e cores que produzimos
+        diariamente pra você!
+      </p>
+      <a className={styles.a} href="https://api.whatsapp.com/send?phone=5533988051975&">
+        <button className={styles.btnPedido}>
+          Faça seu pedido <WhatsAppIcon className={styles.icon} />
+        </button>
+      </a>
     </>
   );
 };
