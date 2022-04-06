@@ -1,6 +1,6 @@
 .App {
-    background-image: url('/public/assets/galeria-background.png');
+    background-image: url('/public/assets/1440/fundo-galeria.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 210vh;
+    background-position: top -80px;
+    height: 1770px;
   }

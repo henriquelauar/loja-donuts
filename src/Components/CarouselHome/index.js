@@ -13,32 +13,32 @@ const responsive = {
 
 const items = [
   <img
-    src="/assets/carrossel.jpg"
+    src="/assets/1440/carrossel.jpg"
     alt=""
     onDragStart={handleDragStart}
     role="presentation"
   />,
   <img
-    src="/assets/carrossel2.jpg"
+    src="/assets/1440/carrossel2.jpg"
     alt=""
     onDragStart={handleDragStart}
     role="presentation"
   />,
   <img
-    src="/assets/carrossel3.jpg"
+    src="/assets/1440/carrossel3.jpg"
     alt=""
 
     onDragStart={handleDragStart}
     role="presentation"
   />,
   <img
-    src="/assets/carrossel4.jpg"
+    src="/assets/1440/carrossel4.jpg"
     alt=""
     onDragStart={handleDragStart}
     role="presentation"
   />,
   <img
-    src="/assets/carrossel5.jpg"
+    src="/assets/1440/carrossel5.jpg"
     alt=""
     onDragStart={handleDragStart}
     role="presentation"

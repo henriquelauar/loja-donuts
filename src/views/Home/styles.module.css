@@ -1,6 +1,4 @@
 .App {
-    background-image: url('/public/assets/fundos-1.png');
+    background-image: url('/public/assets/1440/fundo-home.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 345vh;
   }

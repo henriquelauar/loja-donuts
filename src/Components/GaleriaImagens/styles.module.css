@@ -2,7 +2,7 @@
     margin-top: 18%;
     display: grid;
     grid-template-columns: 340px 340px 340px;
-    column-gap: 200px;
+    column-gap: 100px;
     row-gap: 50px;
     justify-content: center;
     text-align: center;
@@ -16,7 +16,7 @@
     font-size: 36px;
     font-weight: 600;
     color: #0E2E3B;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 
