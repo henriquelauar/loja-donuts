@@ -15,40 +15,31 @@ const items = [
   <img
     src="/assets/carrossel.jpg"
     alt=""
-    height="400"
-    width="400"
     onDragStart={handleDragStart}
     role="presentation"
   />,
   <img
     src="/assets/carrossel2.jpg"
     alt=""
-    height="400"
-    width="400"
     onDragStart={handleDragStart}
     role="presentation"
   />,
   <img
     src="/assets/carrossel3.jpg"
     alt=""
-    height="400"
-    width="400"
+
     onDragStart={handleDragStart}
     role="presentation"
   />,
   <img
     src="/assets/carrossel4.jpg"
     alt=""
-    height="400"
-    width="400"
     onDragStart={handleDragStart}
     role="presentation"
   />,
   <img
     src="/assets/carrossel5.jpg"
     alt=""
-    height="400"
-    width="400"
     onDragStart={handleDragStart}
     role="presentation"
   />,
@@ -56,7 +47,7 @@ const items = [
 
 export default function CarouselComponent() {
   return (
-    <>
+    <div className={styles.container}>
       <h1 className={styles.title}>
         Nossos <span className={styles.title2}>Donuts</span>
       </h1>
@@ -68,6 +59,6 @@ export default function CarouselComponent() {
           controlsStrategy="alternate"
         />
       </div>
-    </>
+    </div>
   );
 }
