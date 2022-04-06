@@ -6,7 +6,7 @@ const Main = () => {
     <>
       <Box className={styles.container}>
         <Box className={styles.mainImage}>
-          <img src="/assets/main.png" alt="logo" height="850px" />
+          {/* <img src="/assets/main.png" alt="logo" height="950px" /> */}
         </Box>
         <Box className={styles.main}>
           <p>

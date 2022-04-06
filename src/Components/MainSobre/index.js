@@ -16,12 +16,6 @@ const MainSobre = () => {
           conquistando o paladar de crianças, jovens e adultos com nossos
           maravilhosos donuts!
         </p>
-        <div className={styles.imagem1}>
-          <img src="/assets/sobre-mao.png" alt="" />
-        </div>
-        <div className={styles.imagem2}>
-          <img src="/assets/2.png" alt="" height="1100px" />
-        </div>
         <p className={styles.text2}>
           Não inventamos a roda, temos os tradicionais donuts, mas também
           adaptamos essa deliciosa rosquinha americana com recheios e coberturas

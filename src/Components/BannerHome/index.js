@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <>
       <Box className={styles.bannerImage}>
-        <img src="/assets/banner-image.png" alt="bannerImage" />
+        
       </Box>
       <Box className={styles.bannerTitle}>
         <h1 className={styles.bannerTitle1}>A hora mais gostosa do seu dia <span style={{color: '#0E2E3B'}}>é com a gente </span>

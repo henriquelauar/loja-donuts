@@ -1,0 +1,22 @@
+.galeria {
+    margin-top: 18%;
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    column-gap: 200px;
+    row-gap: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.img {
+    border-radius: 30px;
+}
+
+.imagem h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #0E2E3B;
+    margin-top: 50px;
+}
+
+
