@@ -1,8 +1,8 @@
 .container {
     width: 800px;
     position: relative;
-    top: 11%;
-    left: 40%;
+    top: 12%;
+    left: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
