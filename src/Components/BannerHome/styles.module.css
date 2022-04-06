@@ -1,27 +1,16 @@
 .container {
-    width: 98vw;
-    height: 100vh;
-}
-
-.bannerImage {
+    width: 800px;
     position: relative;
-    top: 5.5%;
-    left: 2%;
-    max-width: 40%;
-}
-
-.bannerImage img {
-    height: 767px;
-    width: 682px;
+    top: 11%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .bannerTitle {
     text-align: center;
-    position: relative;
-    bottom: 10%;
-    left: 42%;
-    height: 5.612%;
-    width: 46%;
 }
 
 .bannerTitle1 {
@@ -30,15 +19,15 @@
 }
 
 .bannerText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    position: relative;
     font-weight: 600;
     font-size: 18px;
     color: #FFFFFF;
-    bottom: 9%;
-    left: 50%;
-    height: 6%;
-    width: 30%;
+    margin-top: 50px;
+    width: 500px;
 }
 
 .btnPedido {
@@ -52,11 +41,9 @@
     box-sizing: border-box;
     border-radius: 50px;
     color: #ED708E;
-    width: 19%;
-    height: 1.3%;
-    position: relative;
-    bottom: 11%;
-    left: 56%;
+    width: 367px;
+    height: 68px;
+    margin-top: 50px;
 }
 
 .btnPedido:hover {
