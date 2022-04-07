@@ -14,7 +14,7 @@ const Header = () => {
           <Link to="/">Home</Link>
           <Link to="/sobre">Sobre nós</Link> 
           <Link to="/galeria">Galeria</Link> 
-          <Link to="/franquiado">Seja um franqueado</Link> 
+          <Link to="/franqueado">Seja um franqueado</Link> 
         </Box>
       </>
     );

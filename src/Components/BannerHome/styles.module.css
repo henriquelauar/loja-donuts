@@ -59,3 +59,92 @@
 .icon {
     margin-left: 10px;
 }
+
+@media only screen and (max-width: 1600px) {
+    .container {
+        height: 140vh;
+        left: 38%;
+    }
+    .bannerTitle1 {
+        font-size: 64px;
+    }
+    .bannerText {
+        margin-top: 10px;
+    }
+    .btnPedido {
+        margin-top: 10px;
+    }
+  }
+
+@media only screen and (max-width: 1366px) {
+    .container {
+        height: 130vh;
+        left: 35%;
+    }
+
+    .bannerTitle1 {
+        font-size: 64px;
+    }
+
+    .bannerText {
+        margin-top: 20px;
+    }
+
+    .btnPedido {
+        margin-top: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 1280px) {
+    .container {
+        height: 150vh;
+        
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .container {
+        height: 130vh;
+        left: 35%;
+        top: 1%;
+        width: 600px;
+    }
+
+    .bannerTitle1 {
+        font-size: 48px;
+    }
+
+    .bannerText {
+        margin-top: 20px;
+    }
+
+    .btnPedido {
+        margin-top: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .container {
+        height: 120vh;
+        left: 35%;
+        top: 1%;
+        width: 500px;
+    }
+
+    .bannerTitle1 {
+        font-size: 36px;
+    }
+
+    .bannerText {
+        margin-top: 20px;
+        font-size: 12px;
+        width: 300px;
+    }
+
+    .btnPedido {
+        margin-top: 20px;
+        height: 42px;
+        width: 287px;
+        font-size: 14px;
+    }
+  }

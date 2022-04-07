@@ -9,6 +9,7 @@ const responsive = {
   0: { items: 1 },
   568: { items: 2 },
   1024: { items: 3 },
+  1280: { items: 3 },
 };
 
 const items = [
@@ -27,7 +28,6 @@ const items = [
   <img
     src="/assets/1440/carrossel3.jpg"
     alt=""
-
     onDragStart={handleDragStart}
     role="presentation"
   />,

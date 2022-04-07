@@ -1,3 +1,7 @@
+.container {
+    margin-top: 20%;
+}
+
 .carrossel {
     margin-left: 9%; 
 }
@@ -13,3 +17,45 @@
 .title2 {
     color: #0E2E3B;
 }
+
+@media only screen and (max-width: 1920px) {
+    .container {
+        margin-top: 20%;
+    }
+
+    .title {
+        margin-bottom: 5%;
+    }
+  }
+
+  @media only screen and (max-width: 1280px) {
+    .carrossel img {
+        width: 350px;
+        margin-left: 0;
+    }
+    .carrossel {
+        margin-left: 10%;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .carrossel img {
+        width: 350px;
+        height: 350px;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .container {
+        margin-top: 28%;
+    }
+
+    .carrossel img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+  }
