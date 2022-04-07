@@ -3,6 +3,8 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
+// divs vazias para alinhar conteúdo do footer com conteúdo do header
+
 const Footer = () => {
   return (
     <div className={styles.container}>
