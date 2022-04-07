@@ -1,11 +1,30 @@
 .app {
     background-image: url('/public/assets/1440/fundo-sobre.png');
     background-repeat: no-repeat;
-    height: 190vh;
+    height: 1741px;
 }
 
 @media only screen and (max-width: 1920px) {
     .app {
         background-image: url('/public/assets/1920/fundo-sobre.png');
+        background-repeat: no-repeat;
+        height: 1730px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .app {
+        background-image: url('/public/assets/1600/fundo-sobre.png');
+        background-repeat: no-repeat;
+        height: 1672px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .app {
+        background-image: url('/public/assets/800/fundo-sobre.png');
+        background-repeat: no-repeat;
+        background-position: center 80px;
+        height: 1352px;
     }
 }

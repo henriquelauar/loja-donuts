@@ -1,6 +1,24 @@
 .App {
-    background-image: url('/public/assets/1440/fundo-galeria.png');
+  background-image: url('/public/assets/1440/fundo-galeria.png');
+  background-repeat: no-repeat;
+  background-position: top -80px;
+  height: 1770px;
+}
+
+@media only screen and (max-width: 1920px) {
+  .App {
+    background-image: url('/public/assets/1920/fundo-galeria.png');
     background-repeat: no-repeat;
-    background-position: top -80px;
-    height: 1770px;
+    background-position: center 80px;
+    height: 1610px;
   }
+}
+
+@media only screen and (max-width: 800px) {
+  .App {
+    background-image: url('/public/assets/800/fundo-galeria.png');
+    background-repeat: no-repeat;
+    background-position: center 80px;
+    height: 1410px;
+  }
+}

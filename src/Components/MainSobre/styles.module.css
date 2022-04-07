@@ -41,3 +41,37 @@
     margin-top: 50%;
     margin-left: 100%;
 }
+
+@media only screen and (max-width: 1920px) {
+    .container {
+        top: 9%;
+        left: -5%;
+    }
+
+    .text2 {
+        margin-top: 500px;
+        margin-left: 110%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .text {
+        font-size: 12px;
+        width: 300px;
+    }
+
+    .title {
+        margin-top: 50px;
+    }
+
+    .text {
+        margin-top: 70px;
+    }
+
+    .text2 {
+        font-size: 12px;
+        width: 300px;
+        margin-top: 55%;
+        left: 7%;
+    }
+}

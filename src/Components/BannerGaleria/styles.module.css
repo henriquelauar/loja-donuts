@@ -5,3 +5,9 @@
     font-size: 64px;
     color: #ffffff;
 }
+
+@media only screen and (max-width: 800px) {
+    .title {
+        font-size: 36px;
+    }
+}
