@@ -1,7 +1,7 @@
 .container {
     background: #FFFFFF;
     width: 100%;
-    height: 100px;
+    height: 120px;
     position: relative;
     bottom: -100px;
     display: flex;
@@ -9,5 +9,41 @@
     justify-content: space-evenly;
     text-align: center;
     color: #ED708E;
+}
+
+.container h4 {
     font-size: 18px;
+    font-weight: 600;
+}
+
+.redesIcones {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconesDiv {
+    background-color: #ED708E;
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones {
+    background-color: #ED708E;
+    border-radius: 50px;
+    font-size: 26px;
+}
+
+.whatsapp {
+    background-color: #ED708E;
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
 }
