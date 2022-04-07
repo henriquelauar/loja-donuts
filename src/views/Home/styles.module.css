@@ -10,7 +10,7 @@
     background-image: url("/public/assets/1920/fundo-home.png");
     background-repeat: no-repeat;
     background-position: center 80px;
-
+    height: 261vh;
   }
 }
 
@@ -19,6 +19,7 @@
     background-image: url("/public/assets/1600/fundo-home.png");
     background-repeat: no-repeat;
     background-position: center 80px;
+    height: 289vh;
   }
 }
 

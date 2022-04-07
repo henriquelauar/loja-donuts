@@ -20,9 +20,7 @@
 
 @media only screen and (max-width: 1920px) and (min-width: 1920px) {
     .container {
-        max-height: max-content;
-        margin-top: 30%;
-        margin-bottom: 7%;
+        margin-bottom: -1%;
     }
   }
 
