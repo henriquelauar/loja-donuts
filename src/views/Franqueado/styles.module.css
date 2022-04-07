@@ -13,3 +13,9 @@
       height: 969px;
     }
   }
+
+  @media only screen and (max-width: 800px) {
+    .App {
+      height: 600px;
+    }
+  }
