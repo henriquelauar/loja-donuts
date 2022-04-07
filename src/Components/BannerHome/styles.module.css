@@ -27,7 +27,7 @@
     font-size: 18px;
     color: #FFFFFF;
     margin-top: 50px;
-    width: 500px;
+    width: 540px;
 }
 
 .btnPedido {
@@ -60,16 +60,16 @@
     margin-left: 10px;
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 1920px) and (min-width: 1920px) {
     .container {
         height: 120vh;
         left: 38%;
     }
   }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1600px) and (min-width: 1600px) {
     .container {
-        height: 140vh;
+        height: 115vh;
         left: 38%;
     }
     .bannerTitle1 {
@@ -83,9 +83,9 @@
     }
   }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1366px) and (min-width: 1366px) {
     .container {
-        height: 130vh;
+        height: 110vh;
         left: 35%;
     }
 
@@ -102,16 +102,19 @@
     }
   }
 
-  @media only screen and (max-width: 1280px) {
+  @media only screen and (max-width: 1280px) and (min-width: 1280px) {
     .container {
-        height: 150vh;
-        
+        height: 140vh;
+        left: 35%;
+    }
+    .bannerTitle1{
+        font-size: 54px;
     }
   }
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1024px) and (min-width: 1024px) {
     .container {
-        height: 130vh;
+        height: 125vh;
         left: 35%;
         top: 1%;
         width: 600px;

@@ -13,7 +13,7 @@ export const Home = () => {
             <Banner />
             <Main />
             <CarouselComponent />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

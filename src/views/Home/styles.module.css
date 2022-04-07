@@ -10,7 +10,7 @@
     background-image: url("/public/assets/1920/fundo-home.png");
     background-repeat: no-repeat;
     background-position: center 80px;
-    height: 2800px;
+
   }
 }
 
@@ -19,7 +19,6 @@
     background-image: url("/public/assets/1600/fundo-home.png");
     background-repeat: no-repeat;
     background-position: center 80px;
-    height: 2613px;
   }
 }
 
@@ -28,7 +27,7 @@
     background-image: url("/public/assets/1366/fundo-home.png");
     background-repeat: no-repeat;
     background-position: center 80px;
-    height: 335vh;
+    height: 340vh;
   }
 }
 
@@ -37,7 +36,7 @@
     background-image: url("/public/assets/1280/fundo-home.png");
     background-repeat: no-repeat;
     background-position: center 80px;
-    height: 352vh;
+    height: 340vh;
   }
 }
 
@@ -46,7 +45,7 @@
     background-image: url("/public/assets/1024/fundo-home.png");
     background-repeat: no-repeat;
     background-position: center 80px;
-    height: 318vh;
+    height: 340vh;
   }
 }
 
@@ -55,7 +54,7 @@
     background-image: url("/public/assets/800/fundo-home.png");
     background-repeat: no-repeat;
     background-position: center 80px;
-    height: 315vh;
+    height: 340vh;
   }
 }
 

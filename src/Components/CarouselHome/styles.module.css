@@ -1,5 +1,5 @@
 .container {
-    margin-top: 20%;
+    margin-top: 28%;
 }
 
 .carrossel {
@@ -18,10 +18,24 @@
     color: #0E2E3B;
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 1920px) and (min-width: 1920px) {
     .container {
         max-height: max-content;
         margin-top: 30%;
+        margin-bottom: 7%;
+    }
+  }
+
+  
+  @media only screen and (max-width: 1600px) and (min-width: 1600px) {
+    .container {
+        margin-top: 25%;
+    }
+  }
+
+  @media only screen and (min-width: 1366px) {
+    .container {
+        margin-top: -5%;
     }
   }
 
@@ -36,6 +50,10 @@
   }
 
   @media only screen and (max-width: 1024px) {
+    .container {
+        margin-top: 9%;
+    }
+
     .carrossel img {
         width: 350px;
         height: 350px;
