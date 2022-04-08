@@ -59,14 +59,23 @@
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
+  .App {
+    background-image: url("/public/assets/576/fundo-home.png");
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    height: 2100px;
+  }
+}
+
+/* @media only screen and (max-width: 375px) {
   .App {
     background-image: url("/public/assets/375/fundo-home.png");
     background-repeat: no-repeat;
-    background-position: center 80px;
+    background-position: center 100px;
     height: 2020px;
   }
 }
 
-
+ */
 

@@ -6,10 +6,11 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 var styles2 = {
   bmBurgerButton: {
-    position: "fixed",
+    position: 'fixed',
+    display: 'flex',
     width: "36px",
     height: "30px",
-    left: "320px",
+    right: "70px",
     top: "36px",
   },
   bmBurgerBars: {
@@ -18,18 +19,8 @@ var styles2 = {
   bmBurgerBarsHover: {
     background: "#a90000",
   },
-  bmCrossButton: {
-    height: "24px",
-    width: "24px",
-  },
-  bmCross: {
-    background: "#bdc3c7",
-  },
   bmMenuWrap: {
-    position: "fixed",
-    top: "100px",
-    right: "0px",
-    height: "100%",
+    paddingTop: '50px',
   },
   bmMenu: {
     borderRadius: "50px 0px 0px 50px",
@@ -48,7 +39,10 @@ var styles2 = {
     paddingBottom: '15px',
   },
   bmOverlay: {
-    background: "none",
+    display: "none",
+  },
+  bmCrossButton: {
+    display: 'none',
   },
 };
 
@@ -68,7 +62,7 @@ const Header = () => {
         <Link to="/">
           <img src="/assets/375/logo.png" alt="" />
         </Link>
-          <Menu styles={styles2}>
+          <Menu right styles={styles2}>
             <Link to="/" id="home" className={styles.menuItem}>
               Home
             </Link>

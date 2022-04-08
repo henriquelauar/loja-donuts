@@ -48,7 +48,49 @@
     .menuItem {
         text-decoration: none;
         color: #FFF;
-        padding-bottom: 15px;
+        padding-bottom: 10px;
+    }
+
+    .btnPedido {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 11px;
+        color: #fff;
+        background: #ed708e;
+        border-radius: 50px;
+        border: none;
+        width: 190px;
+        height: 40px;
+        margin-left: 8%;
+        margin-top: 15%;
+      }
+}
+
+@media only screen and (max-width: 576px) {
+    .navbarDesktop {
+        display: none;
+    }
+    .navbarMobile {
+        background-color: white;
+        width: 100vw;
+        z-index: 100;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100px;
+    }
+
+    .menu {
+        margin-bottom: 5%;
+    }
+
+    .menuItem {
+        text-decoration: none;
+        color: #FFF;
+        padding-bottom: 10px;
     }
 
     .btnPedido {
