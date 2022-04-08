@@ -1,0 +1,33 @@
+.App {
+    background-image: url('/public/assets/1440/fundo-franqueado.png');
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    height: 942px;
+  }
+
+  @media only screen and (max-width: 1920px) {
+    .App {
+      background-image: url('/public/assets/1920/fundo-franqueado.png');
+      background-repeat: no-repeat;
+      background-position: center 100px;
+      height: 1000px;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .App {
+      background-image: url('/public/assets/800/fundo-franqueado.png');
+      background-repeat: no-repeat;
+      background-position: center 100px;
+      height: 700px;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    .App {
+      background-image: url('/public/assets/576/fundo-franqueado.png');
+      background-repeat: no-repeat;
+      background-position: center 100px;
+      height: 1236px;
+    }
+  }

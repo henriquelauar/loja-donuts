@@ -1,0 +1,88 @@
+.container {
+    width: 60vw;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+.main {
+    width: 602px;
+    height: 144px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.btnSaibaMais {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 36px;
+    background: #FFFFFF;
+    border: 4px solid #ED708E;
+    border-radius: 50px;
+    color: #ED708E;
+    width: 367px;
+    height: 68px;
+}
+
+.btnSaibaMais:hover {
+    background-color: #ED708E;
+    color: #FFFFFF;
+    transition-duration: 500ms;
+}
+
+@media only screen and (max-width: 1920px){
+    .container {
+      height: 8%;
+      margin-top: -6%;
+      margin-bottom: 22%;
+    }
+  }
+  
+  @media only screen and (max-width: 1600px) {
+    .container {
+      height: 350px;
+      margin-top: 5%;
+      margin-bottom: 22%;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .container {
+        margin-top: 0;
+        height: 0;
+        width: 60%;
+    }
+
+    .main {
+        width: 80%;
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    .btnSaibaMais {
+      height: 40px;
+      width: 297px;
+      font-size: 18px;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .container {
+      margin-top: -10%;
+      padding-top: 200px;
+    }
+    .main {
+      width: 184px;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: left;
+    }
+    .btnSaibaMais {
+      margin-top: 70px;
+    }
+  }

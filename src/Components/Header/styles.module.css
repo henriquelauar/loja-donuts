@@ -1,0 +1,115 @@
+.navbarDesktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    width: 100vw;
+    font-size: 24px;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 100;
+    font-size: 18px;
+}
+
+.navbarDesktop a {
+    text-decoration: none;
+    color: #0E2E3B;
+}
+
+.navbarDesktop a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1920px) {
+    .navbarMobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .navbarDesktop {
+        display: none;
+    }
+    .navbarMobile {
+        background-color: white;
+        width: 100vw;
+        z-index: 100;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100px;
+    }
+
+    .menu {
+        margin-bottom: 5%;
+    }
+
+    .menuItem {
+        text-decoration: none;
+        color: #FFF;
+        padding-bottom: 10px;
+    }
+
+    .btnPedido {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 11px;
+        color: #fff;
+        background: #ed708e;
+        border-radius: 50px;
+        border: none;
+        width: 190px;
+        height: 40px;
+        margin-left: 8%;
+        margin-top: 15%;
+      }
+}
+
+@media only screen and (max-width: 576px) {
+    .navbarDesktop {
+        display: none;
+    }
+    .navbarMobile {
+        background-color: white;
+        width: 100vw;
+        z-index: 100;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        height: 100px;
+    }
+
+    .logo {
+        margin-left: 5%;
+    }
+
+    .menu {
+        margin-bottom: 5%;
+    }
+
+    .menuItem {
+        text-decoration: none;
+        color: #FFF;
+        padding-bottom: 10px;
+    }
+
+    .btnPedido {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 11px;
+        color: #fff;
+        background: #ed708e;
+        border-radius: 50px;
+        border: none;
+        width: 190px;
+        height: 40px;
+        margin-left: 8%;
+        margin-top: 15%;
+      }
+}

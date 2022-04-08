@@ -1,0 +1,42 @@
+.App {
+  background-image: url('/public/assets/1440/fundo-galeria.png');
+  background-repeat: no-repeat;
+  background-position: top -100px;
+  height: 1770px;
+}
+
+@media only screen and (max-width: 1920px) {
+  .App {
+    background-image: url('/public/assets/1920/fundo-galeria.png');
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    height: 1690px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .App {
+    background-image: url('/public/assets/1280/fundo-galeria.png');
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    height: 2600px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .App {
+    background-image: url('/public/assets/800/fundo-galeria.png');
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    height: 1410px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .App {
+    background-image: url('/public/assets/576/fundo-galeria.png');
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    height: 2808px;
+  }
+}

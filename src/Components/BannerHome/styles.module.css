@@ -1,0 +1,147 @@
+.container {
+  width: 800px;
+  height: 1170px;
+  position: relative;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerTitle {
+  text-align: center;
+}
+
+.bannerTitle1 {
+  font-size: 64px;
+  font-weight: 600;
+  color: white;
+}
+
+.bannerText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 50px;
+  width: 540px;
+}
+
+.btnPedido {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  background: #ffffff;
+  border: 4px solid #ed708e;
+  box-sizing: border-box;
+  border-radius: 50px;
+  color: #ed708e;
+  width: 367px;
+  height: 68px;
+  margin-top: 50px;
+}
+
+.btnPedido:hover {
+  background-color: #ed708e;
+  color: #ffffff;
+  transition-duration: 500ms;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.icon {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 1920px) {
+  .container {
+    height: 1296px;
+    left: 38%;
+  }
+}
+
+@media only screen and (max-width: 1600px) and (max-width: 1600px) {
+  .container {
+    height: 1035px;
+    left: 38%;
+  }
+  .bannerTitle1 {
+    font-size: 64px;
+  }
+  .bannerText {
+    margin-top: 10px;
+  }
+  .btnPedido {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .container {
+    padding-top: 1%;
+    width: 60%;
+  }
+
+  .bannerTitle1 {
+    font-size: 56px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 50%;
+    padding-bottom: 190px;
+    left: 45%;
+  }
+
+  .bannerTitle1 {
+    font-size: 36px;
+  }
+
+  .bannerText {
+    width: 120%;
+  }
+
+  .btnPedido {
+    height: 42px;
+    width: 297px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  
+  .container {
+    width: 100vw;
+    left: 0;
+  }
+
+  .bannerTitle1 {
+    height: 144px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    width: 50%;
+    position: relative;
+    left: 40%;
+}
+
+  .bannerText {
+    position: relative;
+    top: 26%;
+    width: 70vw;
+  }
+
+  .btnPedido {
+    position: relative;
+    top: 400%;
+  }
+}

@@ -1,0 +1,246 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 140px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 723px;
+  width: 1170px;
+  background: #ffffff;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 600;
+  color: #52bfe9;
+  margin-top: 5%;
+  line-height: 96px;
+}
+
+.text {
+  color: #0e2e3b;
+  font-size: 24px;
+  width: 90%;
+  text-align: center;
+  line-height: 36px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 535px 535px;
+  position: relative;
+  right: 270px;
+  width: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 535px;
+  height: 48px;
+  background: rgba(219, 219, 219, 0.9);
+  border: none;
+  border-radius: 50px;
+  margin-top: 4%;
+  margin-left: 2%;
+  padding: 0 26px 0;
+}
+
+::-webkit-input-placeholder {
+  color: #0e2e3b;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btnFranqueado {
+  background: #ed708e;
+  width: 409px;
+  height: 48px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 4%;
+  position: relative;
+  left: 15%;
+}
+
+.formText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+  margin-bottom: 15%;
+}
+
+.formTitle {
+  margin-bottom: 15%;
+  color: #0e2e3b;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+}
+
+@media only screen and (max-width: 1366px) {
+  .wrapper {
+      margin: 0;
+      width: 980px;
+  }
+
+  .form {
+    width: 60%;
+    margin-left: 15%;
+  }
+
+  .btnFranqueado {
+    width: 60%;
+  }
+  .formText {
+    margin-left: 0%;
+    width: 80%;
+  }
+
+  .formTitle {
+    font-size: 32px;
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+      width: 80%;
+  }
+
+  .title {
+    font-size: 56px;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+
+  .form {
+    margin-left: 22%;
+    width: 50%;
+  }
+
+  .btnFranqueado {
+    width: 50%;
+    margin-left: 7%;
+  }
+
+  .formText {
+    margin-left: -30%;
+  }
+
+  .formTitle {
+    font-size: 26px;
+    margin-bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .wrapper {
+    width: 536px;
+    height: 450px;
+  }
+
+  .title {
+    font-size: 36px;
+    line-height: 54px;
+  }
+
+  .text {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .main {
+    grid-template-columns: 350px 350px;
+    margin-top: -2%;
+  }
+
+  .form {
+    width: 50%;
+    height: 28px;
+    margin-left: 42%;
+    padding: 0 12px 0;
+  }
+
+  ::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+
+  .btnFranqueado {
+    width: 175px;
+    height: 24px;
+    font-size: 12px;
+    left: 36%;
+  }
+
+  .formText {
+    margin-left: 0;
+  }
+
+  .formTitle {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .wrapper {
+    width: 80%;
+    height: 75%;
+    margin-bottom: -100px;
+  }
+
+  .title {
+    font-size: 32px;
+    width: 191px;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form {
+    width: 90%;
+    height: 48px;
+    margin-top: 5%;
+    margin-left: 280px;
+  }
+
+  .btnFranqueado {
+    margin-left: 225px;
+    margin-top: 30px;
+    width: 50%;
+    font-size: 12px;
+  }
+
+  .formText {
+    width: 299px;
+    margin-top: 50px;
+    margin-left: 530px;
+  }
+}

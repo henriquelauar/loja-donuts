@@ -1,0 +1,98 @@
+.container {
+    margin-top: 28%;
+}
+
+.carrossel img {
+    margin-left: 20%;
+    border-radius: 50px;
+}
+
+.title {
+    color: white;
+    font-weight: 600;
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.title2 {
+    color: #0E2E3B;
+}
+
+@media only screen and (max-width: 1920px) {
+    .container {
+        margin-bottom: 1%;
+    }
+  }
+
+  
+  @media only screen and (max-width: 1600px) {
+    .container {
+        margin-top: 25%;
+    }
+
+    .carrossel img {
+        margin-left: 10%;
+    }
+  }
+
+  @media only screen and (max-width: 1280px) {
+    .container {
+        margin-top: 400px;
+        margin-bottom: -20px;
+    }
+
+    .carrossel img {
+        margin-left: 20%;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .carrossel img {
+        margin-left: 4%;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .container {
+        margin-top: 355px;
+    }
+
+    .carrossel img {
+        width: 250px;
+        height: 250px;
+        margin-left: 25%;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    .container {
+        height: 350px;
+        margin-top: 450px;
+        margin-bottom: -266px;
+    }
+
+    .carrossel img {
+        width: 187px;
+        height: 187px;
+        position: relative;
+        left: 8%;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    .carrossel img {
+        width: 187px;
+        height: 187px;
+        position: relative;
+        left: 3%;
+    }
+  }
