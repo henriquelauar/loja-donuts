@@ -1,0 +1,9 @@
+.arrow {
+    background-color: #ed708e;
+    border-radius: 50px;
+    cursor: pointer;
+    position: fixed;
+    right: 2%;
+    top: 95%;
+    z-index: 10;
+}

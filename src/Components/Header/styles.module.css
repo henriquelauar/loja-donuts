@@ -80,8 +80,11 @@
         display: flex;
         align-items: center;
         justify-content: left;
-        margin-left: 5%;
         height: 100px;
+    }
+
+    .logo {
+        margin-left: 5%;
     }
 
     .menu {

@@ -60,7 +60,7 @@ const Header = () => {
 
       <div className={styles.navbarMobile}>
         <Link to="/">
-          <img src="/assets/footer.png" alt="" />
+          <img src="/assets/footer.png" alt="" className={styles.logo} />
         </Link>
           <Menu right styles={styles2} >
             <Link to="/" id="home" className={styles.menuItem}>
