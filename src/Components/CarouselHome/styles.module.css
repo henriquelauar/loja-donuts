@@ -2,9 +2,7 @@
     margin-top: 28%;
 }
 
-.carrossel {
-    margin-left: 9%; 
-}
+
 
 .title {
     color: white;
@@ -18,20 +16,20 @@
     color: #0E2E3B;
 }
 
-@media only screen and (max-width: 1920px) and (min-width: 1920px) {
+@media only screen and (max-width: 1920px) and (max-width: 1920px) {
     .container {
         margin-bottom: -1%;
     }
   }
 
   
-  @media only screen and (max-width: 1600px) and (min-width: 1600px) {
+  @media only screen and (max-width: 1600px) and (max-width: 1600px) {
     .container {
         margin-top: 25%;
     }
   }
 
-  @media only screen and (min-width: 1366px) {
+  /* @media only screen and (min-width: 1366px) {
     .container {
         margin-top: -5%;
     }
@@ -56,7 +54,7 @@
         width: 350px;
         height: 350px;
     }
-  }
+  } */
 
   @media only screen and (max-width: 800px) {
     .container {
@@ -70,5 +68,21 @@
 
     .title {
         font-size: 36px;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .container {
+        margin-top: 70%;
+        padding-top: 87px;
+    }
+
+    .carrossel img {
+        width: 187px;
+        height: 187px;
+    }
+
+    .title {
+        font-size: 32px;
     }
   }

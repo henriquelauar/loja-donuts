@@ -1,7 +1,7 @@
 .App {
   background-image: url('/public/assets/1440/fundo-galeria.png');
   background-repeat: no-repeat;
-  background-position: top -80px;
+  background-position: top -100px;
   height: 1770px;
 }
 
@@ -9,7 +9,7 @@
   .App {
     background-image: url('/public/assets/1920/fundo-galeria.png');
     background-repeat: no-repeat;
-    background-position: center 80px;
+    background-position: center 100px;
     height: 1690px;
   }
 }
@@ -18,7 +18,16 @@
   .App {
     background-image: url('/public/assets/800/fundo-galeria.png');
     background-repeat: no-repeat;
-    background-position: center 80px;
+    background-position: center 100px;
     height: 1410px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .App {
+    background-image: url('/public/assets/375/fundo-galeria.png');
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    height: 2808px;
   }
 }

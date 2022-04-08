@@ -1,4 +1,5 @@
 import styles from "./styles.module.css";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
@@ -9,7 +10,7 @@ const Main = () => {
         essa deliciosa rosquinha americana com recheios e coberturas brasileiríssimos 
         para fazerem parte da melhor pausa do seu dia!
         </p>
-        <button className={styles.btnSaibaMais}>Saiba mais sobre nós</button>
+        <Link to="/sobre"><button className={styles.btnSaibaMais}>Saiba mais sobre nós</button> </Link>
       </div>
     </div>
   );

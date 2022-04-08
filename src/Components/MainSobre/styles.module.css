@@ -20,7 +20,7 @@
 .title {
     color: #52BFE9;
     font-size: 64px;
-    
+    font-weight: 600;
 }
 
 .text {
@@ -30,6 +30,7 @@
     width: 695px;
     height: 291px;
     margin-top: 100px;
+    color: #0E2E3B;
 }
 
 .text2 {
@@ -41,6 +42,7 @@
     position: relative;
     margin-top: 50%;
     margin-left: 100%;
+    color: #0E2E3B;
 }
 
 @media only screen and (max-width: 1920px) {
@@ -74,5 +76,38 @@
         width: 300px;
         margin-top: 55%;
         left: 7%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        padding-top: 100px;
+        top: 0;
+        left: 0;
+        width: 100vw;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .text {
+        margin-top: 45%;
+        font-weight: 400;
+        font-size: 18px;
+        width: 220px;
+        text-align: left;
+        position: relative;
+        right: 50px;
+    }
+    .text2 {
+        margin-bottom: 325px;
+        font-weight: 400;
+        font-size: 18px;
+        left: 0;
+        margin-left: 35%;
+        margin-top: 80%;
+        text-align: left;
+        width: 216px;
     }
 }

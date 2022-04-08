@@ -40,3 +40,16 @@
         font-size: 24px;
     }
 }
+
+@media only screen and (max-width: 375px) {
+    .galeria {
+        margin-top: 170px;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        margin-bottom: 55px;
+    }
+
+    .imagem h3 {
+        margin-top: 15px;
+    }
+}

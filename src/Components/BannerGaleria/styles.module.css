@@ -3,6 +3,7 @@
     top: 120px;
     text-align: center;
     font-size: 64px;
+    font-weight: 600;
     color: #ffffff;
 }
 
@@ -10,4 +11,11 @@
     .title {
         font-size: 36px;
     }
+}
+
+@media only screen and (max-width: 375px) {
+    .title {
+        font-size: 32px;
+    }
+
 }

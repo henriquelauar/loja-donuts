@@ -7,14 +7,15 @@
     align-items: center;
     height: 723px;
     width: 1170px;
-    background: rgba(219, 219, 219, 0.9);
+    background: #FFFFFF;
     border-radius: 50px;
     font-weight: 600;
-    margin-bottom: 145px;
+    margin-bottom: 165px;
 }
 
 .title {
     font-size: 64px;
+    font-weight: 600;
     color: #52BFE9;
     margin-top: 5%;
     line-height: 96px;
@@ -41,7 +42,7 @@
     flex-direction: column;
     width: 535px;
     height: 48px;
-    background: #FFFFFF;
+    background: rgba(219, 219, 219, 0.9);
     border: none;
     border-radius: 50px;
     margin-top: 4%;
@@ -141,4 +142,49 @@
     .formTitle {
         font-size: 24px;
     }
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 335px;
+        height: 967px;
+        top: 10%;
+        left: 5%;
+        margin-bottom: 208px;
+    }
+
+    .title {
+        font-size: 32px;
+        width: 191px;
+        text-align: center;
+    }
+
+    .text {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form {
+        width: 315px;
+        height: 48px;
+        margin-left: 200px;
+        margin-top: 5%;
+    }
+
+    .btnFranqueado {
+        left: 240px;
+        margin-top: 25%;
+    }
+
+    .formText {
+        width: 299px;
+        margin-top: 80px;
+        margin-left: 200px;
+    }
+
 }

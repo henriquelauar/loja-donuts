@@ -1,6 +1,6 @@
 .container {
     width: 60vw;
-    height: 30vh;
+    height: 270px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +35,7 @@
     transition-duration: 500ms;
 }
 
-@media only screen and (max-width: 1920px) and (min-width: 1920px) {
+@media only screen and (max-width: 1920px){
     .container {
       height: 8%;
       margin-top: -6%;
@@ -43,7 +43,7 @@
     }
   }
   
-  @media only screen and (max-width: 1600px) and (min-width: 1600px) {
+  @media only screen and (max-width: 1600px) {
     .container {
       height: 350px;
       margin-top: 5%;
@@ -51,7 +51,7 @@
     }
   }
 
-  @media only screen and (max-width: 1366px) and (min-width: 1366px) {
+  /* @media only screen and (max-width: 1366px) and (min-width: 1366px) {
     .container {
         height: 100vh;
         left: 35%;
@@ -79,18 +79,18 @@
 
   @media only screen and (max-width: 1024px) {
     .container {
-        height: 84vh;
+        height: 645.11px;
         left: 35%;
     }
 
     .main {
         width: 450px;
     }
-  }
+  } */
   
   @media only screen and (max-width: 800px) {
     .container {
-        height: 78vh;
+        height: 468px;
         left: 35%;
     }
 
@@ -107,3 +107,18 @@
     }
   }
   
+  @media only screen and (max-width: 375px) {
+    .container {
+      margin-top: 120%;
+      padding-top: 200px;
+    }
+    .main {
+      width: 184px;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: left;
+    }
+    .btnSaibaMais {
+      margin-top: 135px;
+    }
+  }
