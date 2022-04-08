@@ -122,19 +122,3 @@
       margin-top: 90px;
     }
   }
-
-  @media only screen and (max-width: 375px) {
-    .container {
-      margin-top: 120%;
-      padding-top: 200px;
-    }
-    .main {
-      width: 184px;
-      font-size: 18px;
-      font-weight: 400;
-      text-align: left;
-    }
-    .btnSaibaMais {
-      margin-top: 135px;
-    }
-  }

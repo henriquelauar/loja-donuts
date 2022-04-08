@@ -189,33 +189,3 @@
     top: 303%;
   }
 }
-/* 
-@media only screen and (max-width: 375px) {
-    .container {
-        padding-top: 200px;
-        height: 375px;
-        width: 355px;
-        left: 0%;
-        top: 165px;
-    }
-
-    .bannerTitle1 {
-        height: 144px;
-        font-size: 32px;
-        font-weight: 600;
-        line-height: 48px;
-    }
-
-    .bannerText {
-        position: relative;
-        top: 220px;
-        width: 310px;
-        font-weight: 400;
-        text-align: left;
-    }
-
-    .btnPedido {
-        position: relative;
-        top: 220px;
-    }
-} */

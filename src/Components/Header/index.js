@@ -8,9 +8,9 @@ var styles2 = {
   bmBurgerButton: {
     position: 'fixed',
     display: 'flex',
-    width: "36px",
+    width: "42px",
     height: "30px",
-    right: "70px",
+    right: "20px",
     top: "36px",
   },
   bmBurgerBars: {
@@ -62,7 +62,7 @@ const Header = () => {
         <Link to="/">
           <img src="/assets/375/logo.png" alt="" />
         </Link>
-          <Menu right styles={styles2}>
+          <Menu right styles={styles2} >
             <Link to="/" id="home" className={styles.menuItem}>
               Home
             </Link>

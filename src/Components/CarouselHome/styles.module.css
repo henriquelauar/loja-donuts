@@ -83,6 +83,7 @@
     .container {
         height: 350px;
         margin-top: 450px;
+        margin-bottom: -266px;
     }
 
     .carrossel img {
@@ -105,20 +106,3 @@
         left: 20%;
     }
   }
-
-  /* @media only screen and (max-width: 375px) {
-    .container {
-        margin-top: 77%;
-        padding-top: 87px;
-    }
-
-    .carrossel img {
-        width: 187px;
-        height: 187px;
-        margin-left: 25%;
-    }
-
-    .title {
-        font-size: 32px;
-    }
-  } */

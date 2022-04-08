@@ -79,11 +79,15 @@
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .container {
         padding-top: 100px;
         top: 0;
         left: 0;
+        width: 100vw;
+    }
+
+    .main {
         width: 100vw;
     }
 
@@ -92,22 +96,21 @@
     }
 
     .text {
-        margin-top: 45%;
+        margin-top: 85px;
         font-weight: 400;
         font-size: 18px;
-        width: 220px;
+        width: 55%;
         text-align: left;
         position: relative;
-        right: 50px;
+        right: 15%;
     }
     .text2 {
-        margin-bottom: 325px;
         font-weight: 400;
         font-size: 18px;
-        left: 0;
-        margin-left: 35%;
-        margin-top: 80%;
+        left: 5%;
+        margin-left: 15%;
+        margin-top: 420px;
         text-align: left;
-        width: 216px;
+        width: 65%;
     }
 }
