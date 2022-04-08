@@ -23,32 +23,14 @@
   }
 }
 
-/* @media only screen and (max-width: 1366px) {
-  .App {
-    background-image: url("/public/assets/1366/fundo-home.png");
-    background-repeat: no-repeat;
-    background-position: center 80px;
-    height: 2600px;
-  }
-}
-
 @media only screen and (max-width: 1280px) {
   .App {
     background-image: url("/public/assets/1280/fundo-home.png");
     background-repeat: no-repeat;
     background-position: center 80px;
-    height: 340vh;
+    height: 2647px;
   }
 }
-
-@media only screen and (max-width: 1024px) {
-  .App {
-    background-image: url("/public/assets/1024/fundo-home.png");
-    background-repeat: no-repeat;
-    background-position: center 80px;
-    height: 340vh;
-  }
-} */
 
 @media only screen and (max-width: 800px) {
   .App {
@@ -67,15 +49,4 @@
     height: 2100px;
   }
 }
-
-/* @media only screen and (max-width: 375px) {
-  .App {
-    background-image: url("/public/assets/375/fundo-home.png");
-    background-repeat: no-repeat;
-    background-position: center 100px;
-    height: 2020px;
-  }
-}
-
- */
 

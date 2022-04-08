@@ -25,6 +25,13 @@
     }
 }
 
+@media only screen and (max-width: 1366px) {
+    .galeria {
+        margin-top: 15%;
+        grid-template-columns: 340px 340px;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     .galeria {
         grid-template-columns: 230px 230px 230px;

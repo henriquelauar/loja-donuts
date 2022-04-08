@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 const Formulario = () => {
   return (
     <div className={styles.container}>
+    <div className={styles.wrapper}>
       <div>
         <h1 className={styles.title}>Seja um <span style={{color: "#0E2E3B"}}>franqueado</span></h1>
       </div>
@@ -26,6 +27,7 @@ const Formulario = () => {
           <img src="/assets/donuts.png" alt=""/>
         </div>
       </div>
+    </div>
     </div>
   );
 };

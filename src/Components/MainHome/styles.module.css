@@ -51,59 +51,23 @@
     }
   }
 
-  /* @media only screen and (max-width: 1366px) and (min-width: 1366px) {
-    .container {
-        height: 100vh;
-        left: 35%;
-        margin-top: 25%;
-    }
-
-    .bannerTitle1 {
-        font-size: 64px;
-    }
-
-    .bannerText {
-        margin-top: 20px;
-    }
-
-    .btnPedido {
-        margin-top: 20px;
-    }
-  }
-
-  @media only screen and (min-width: 1280px) {
-    .container {
-      height: 450px
-    }
-  }
-
-  @media only screen and (max-width: 1024px) {
-    .container {
-        height: 645.11px;
-        left: 35%;
-    }
-
-    .main {
-        width: 450px;
-    }
-  } */
-  
   @media only screen and (max-width: 800px) {
     .container {
-        height: 468px;
-        left: 35%;
+        margin-top: 0;
+        height: 0;
+        width: 60%;
     }
 
     .main {
-        width: 410px;
+        width: 80%;
         line-height: 20px;
         font-size: 12px;
     }
 
     .btnSaibaMais {
-      height: 42px;
-      width: 287px;
-      font-size: 14px;
+      height: 40px;
+      width: 297px;
+      font-size: 18px;
     }
   }
   

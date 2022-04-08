@@ -8,8 +8,9 @@ const handleDragStart = (e) => e.preventDefault();
 const responsive = {
   0: { items: 1 },
   576: { items: 1 },
-  1024: { items: 3 },
-  1280: { items: 3 },
+  600: { items: 2 },
+  1024: { items: 2},
+  1365: { items: 3}
 };
 
 const items = [
