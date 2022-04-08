@@ -144,13 +144,13 @@
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .container {
-        width: 335px;
-        height: 967px;
+        width: 80%;
+        height: 75%;
         top: 10%;
-        left: 5%;
-        margin-bottom: 208px;
+        left: 10%;
+        margin-bottom: -100px;
     }
 
     .title {
@@ -167,24 +167,28 @@
     .main {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .form {
-        width: 315px;
+        width: 90%;
         height: 48px;
-        margin-left: 200px;
         margin-top: 5%;
+        margin-left: 280px;
     }
 
     .btnFranqueado {
-        left: 240px;
-        margin-top: 25%;
+        margin-left: 225px;
+        margin-top: 30px;
+        width: 50%;
+        font-size: 12px;
     }
 
     .formText {
         width: 299px;
-        margin-top: 80px;
-        margin-left: 200px;
+        margin-top: 50px;
+        margin-left: 530px;
     }
 
 }
